@@ -2,7 +2,14 @@ name: go lint
 # Run this separately from pre-commit since then we get nice inline messages in PRs.
 
 on:
-  workflow_call:
+  push:
+    branches:
+      - main
+      - '**'
+  pull_request:
+    branches:
+      - main
+      - '**'
 
 jobs:
   golangci:
