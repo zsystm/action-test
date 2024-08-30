@@ -7,4 +7,6 @@ func TestHello(t *testing.T) {
 	if got := Hello(); got != want {
 		t.Errorf("Hello() = %q, want %q", got, want)
 	}
+
+	t.Log("Hello() test passed")
 }
