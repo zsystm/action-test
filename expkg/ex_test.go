@@ -1,4 +1,4 @@
-//nolint:testpackage
+//nolint:testpackage // Ignore this linter rule because we are not using the _test suffix for the package name.
 package expkg
 
 import "testing"
