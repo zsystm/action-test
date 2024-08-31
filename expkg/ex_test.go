@@ -1,4 +1,4 @@
-// nolint:testpackage
+//nolint:testpackage
 package expkg
 
 import "testing"
